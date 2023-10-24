@@ -170,3 +170,49 @@ namespace Operator{
         }
     }
 }
+
+//Assignment Operator
+
+using System;
+
+namespace Operator{
+    public class Program{
+        public static void Main(string[] args){
+            int a = 50;
+            Console.WriteLine(a);
+            
+            a += 3;
+            Console.WriteLine(a);
+            
+            a -= 3;
+            Console.WriteLine(a);
+            
+            a *= 3;
+            Console.WriteLine(a);
+            
+            a /= 3;
+            Console.WriteLine(a);
+            
+            a %= 3;
+            Console.WriteLine(a);
+            
+            a &= 3;
+            Console.WriteLine(a);
+            
+            a |= 3;
+            Console.WriteLine(a);
+            
+            a ^= 3;
+            Console.WriteLine(a);
+            
+            a >>= 3;
+            Console.WriteLine(a);
+            
+            a <<= 3;
+            Console.WriteLine(a);
+            
+        }
+    }
+}
+
+
