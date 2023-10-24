@@ -41,4 +41,19 @@ namespace myApp{
     }
 }
 
+// Interpolation
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            string firstName = "Khudaija";
+            string secondName = "Pinjari";
+            
+            string name = $"My name is {firstName} {secondName}";
+            Console.WriteLine(name);
+        }
+    }
+}
 
