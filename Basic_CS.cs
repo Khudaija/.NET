@@ -124,4 +124,18 @@ namespace UserInput{
     }
 }
 
+//User Input Number
 
+using System;
+
+namespace UserInput{
+    public class Program{
+        public static void Main(string[] args){
+            Console.WriteLine("Enter the age: ");
+            
+            int Age = Convert.ToInt32(Console.ReadLine());//input converted into integer
+            
+            Console.WriteLine("Your Age is " + Age);
+        }
+    }
+}
