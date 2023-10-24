@@ -139,3 +139,34 @@ namespace UserInput{
         }
     }
 }
+
+//Operator
+
+using System;
+
+namespace Operator{
+    public class Program{
+        public static void Main(string[] args){
+            int a = 10;
+            int b = 12;
+            
+            int add = a + b; //addition
+            int sub = a - b; //substraction
+            int mul = a * b; // multiplication
+            int div = a / b; //division
+            int mod = a % b; // module
+            
+            Console.WriteLine(add);
+            Console.WriteLine(sub);
+            Console.WriteLine(mul);
+            Console.WriteLine(div);
+            Console.WriteLine(mod);
+            
+            a++; //increment
+            Console.WriteLine(a);
+            
+            b--; //decrement
+            Console.WriteLine(b);
+        }
+    }
+}
