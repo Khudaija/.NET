@@ -108,4 +108,20 @@ namespace TypeCasting{
     }
 }
 
-//
+// User Input
+
+using System;
+
+namespace UserInput{
+    public class Program{
+        public static void Main(string[] args){
+            Console.WriteLine("Enter Username:");
+            
+            string username = Console.ReadLine(); // store input
+            
+            Console.WriteLine("Username is: " + username);
+        }
+    }
+}
+
+
