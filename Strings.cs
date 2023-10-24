@@ -57,3 +57,22 @@ namespace myApp{
     }
 }
 
+// Access String
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            string text = "My name is John.";
+            Console.WriteLine(text[0]); // indexing
+            
+            Console.WriteLine(text.IndexOf("n"));
+            
+            // after indexing all string is print
+            int charPos = text.IndexOf("n");
+            string nextText = text.Substring(charPos); 
+            Console.WriteLine(nextText);
+        }
+    }
+}
