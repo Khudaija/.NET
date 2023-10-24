@@ -215,4 +215,22 @@ namespace Operator{
     }
 }
 
+// Math
 
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            int x = 15;
+            int y = 20;
+            
+            Console.WriteLine(Math.Max(x,y)); // maximum
+            Console.WriteLine(Math.Min(x,y)); //minimum
+            
+            Console.WriteLine(Math.Abs(-9.08)); //absolute
+            Console.WriteLine(Math.Sqrt(25)); //squaroot
+            Console.WriteLine(Math.Round(9.234)); //round figure or approximate value
+        }
+    }
+}
