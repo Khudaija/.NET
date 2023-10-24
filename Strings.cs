@@ -76,3 +76,24 @@ namespace myApp{
         }
     }
 }
+
+// Special Characters - \n, \t, \b
+
+using System;
+ 
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            
+            string text = "We are the so-called \"Vikings\" from the north.";
+            Console.WriteLine(text);
+            
+            string text2 = "It\'s alright.";
+            Console.WriteLine(text2);
+            
+            string text3 = "The character \\ is called backslash.";
+            Console.WriteLine(text3);
+            
+        }
+    }
+}
