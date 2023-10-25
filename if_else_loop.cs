@@ -21,3 +21,22 @@ namespace myApp{
         }
     }
 }
+
+// short hand if else
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            int age = 22;
+            
+            //          Conditon      if stat    else stat
+            string result = (age>18) ? "Valid" : "Invalid";
+            
+            Console.WriteLine(result);
+        }
+    }
+}
+
+
