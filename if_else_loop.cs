@@ -114,5 +114,20 @@ namespace myApp{
     }
 }
 
+// nested loop
 
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            
+            for(int i = 10; i>=1; i--){
+                for(int j = 1; j<=3; j++){
+                    Console.WriteLine(i + "  " + j);
+                }
+            }
+        }
+    }
+}
 
