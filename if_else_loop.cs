@@ -131,3 +131,18 @@ namespace myApp{
     }
 }
 
+// for each loop - is used exclusively to loop through elements in an array
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            string[] cars = {"BMW", "800", "ford"};
+            
+            foreach(string i in cars){
+                Console.WriteLine(i);
+            }
+        }
+    }
+}
