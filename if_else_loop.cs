@@ -165,3 +165,21 @@ namespace myApp{
     }
 }
 
+// continue
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            for(int i = 1; i <= 10; i++){
+                Console.WriteLine(i);
+                
+                if(i==4){ // condition for use continue function
+                    Console.WriteLine("half quater");
+                    continue;
+                }
+            }
+        }
+    }
+}
