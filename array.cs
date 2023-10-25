@@ -56,3 +56,30 @@ namespace myApp{
         }
     }
 }
+
+// Sort Arrays
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            
+            // sorting in string array
+            string[] cars = {"8hundred", "ford", "BMW"};
+            Array.Sort(cars);
+            foreach(string i in cars){
+                Console.WriteLine(i);
+            }
+            
+            // sorting in integiral array
+            int[] num = {1, 5, 8, 2, 0};
+            Array.Sort(num);
+            foreach(int i in num){
+                Console.WriteLine(i);
+            }
+            
+        }
+    }
+}
+
