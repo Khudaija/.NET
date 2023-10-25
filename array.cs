@@ -20,3 +20,23 @@ namespace myApp{
     }
 }
 
+// other way to create array
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            
+            //declare an array
+            string[] cars;
+            
+            // add value, using new keyword
+            cars = new string[] {"8hundred", "ford", "BMW"};
+            
+            Console.WriteLine(cars[0]);
+            
+        }
+    }
+}
+
