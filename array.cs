@@ -40,3 +40,19 @@ namespace myApp{
     }
 }
 
+//loop through an array
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            
+            string[] cars = {"8hundred", "ford", "BMW"};
+            
+            for(int i=0; i<cars.Length; i++){
+                Console.WriteLine(cars[i]);
+            }
+        }
+    }
+}
