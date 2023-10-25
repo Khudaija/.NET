@@ -141,3 +141,21 @@ namespace myApp{
     }
 }
 
+// loop through 2d array get length
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main (string[] args){
+            
+            int[,] num = {{3, 9, 6}, {4, 7, 1}};
+            
+            for(int i = 0; i < num.GetLength(0); i++){
+                for(int j = 0; j < num.GetLength(1); j++){
+                    Console.WriteLine(num[i, j]);
+                }
+            }
+        }
+    }
+}
