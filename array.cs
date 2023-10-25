@@ -83,3 +83,24 @@ namespace myApp{
     }
 }
 
+// using linq
+
+using System;
+using System.Linq;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            
+            int[] num = {5, 1, 3, 7, 0 };
+            
+            Console.WriteLine(num.Max()); // largest number
+            Console.WriteLine(num.Min()); // smallest number
+            Console.WriteLine(num.Sum());  // sum
+            
+        }
+    }
+}
+
+
+
