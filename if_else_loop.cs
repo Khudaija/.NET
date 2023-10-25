@@ -64,3 +64,22 @@ namespace myApp{
         }
     }
 }
+
+// While
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            int i = 2; // initialization
+            
+            while(i<10){  // condition
+                Console.WriteLine(i);
+                i++; // updation
+            }
+        }
+    }
+}
+
+
