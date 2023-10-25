@@ -102,5 +102,25 @@ namespace myApp{
     }
 }
 
+//Multidimension Array
 
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            
+            //create 2D dimension array
+            int[,] num = {{3, 5, 2}, {1, 6, 9}};
+            
+            //Access the 2D array
+            Console.WriteLine(num[0,2]);
+            
+            //change element
+            num[0,0] = 8;
+            Console.WriteLine(num[0,0]);
+            
+        }
+    }
+}
 
