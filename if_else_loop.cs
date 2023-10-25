@@ -99,4 +99,20 @@ namespace myApp{
     }
 }
 
+// for loop
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main(string[] args){
+            
+            for(int i = 10; i>=1; i--){
+                Console.WriteLine(i);
+            }
+        }
+    }
+}
+
+
 
