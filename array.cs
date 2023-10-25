@@ -124,3 +124,20 @@ namespace myApp{
     }
 }
 
+// loop through 2d array
+
+using System;
+
+namespace myApp{
+    public class Program{
+        public static void Main (string[] args){
+            
+            int[,] num = {{3, 9, 6}, {4, 7, 1}};
+            
+            foreach(int i in num){
+                Console.WriteLine(i);
+            }
+        }
+    }
+}
+
