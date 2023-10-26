@@ -138,3 +138,28 @@ namespace myApp{
     }
 }
 
+// Method Overloading - multiple methods can have the same name with different parameters
+
+using System;
+
+namespace myApp{
+    public class Program{
+        
+        static int myMethod(int x, int y){
+            return x + y;
+        } 
+        
+        static double myMethod(double x, double y){
+            return x + y;
+        }
+        
+        public static void Main(string[] args){
+        
+            int myNum1 = myMethod(2,4);
+            double myNum2 = myMethod(2.3, 3.4);
+            
+            Console.WriteLine("Int: " + myNum1);
+            Console.WriteLine("Double: " + myNum2);
+        }
+    }
+}
