@@ -46,8 +46,6 @@ namespace myApp{
     }
 }
 
-// Methode Parameters & Arguments
-
 // Multiple Parammeter
 using System;
 
@@ -60,6 +58,26 @@ namespace myApp{
         public static void Main(string[] args){
             myMethod("Anna", 22);
             myMethod("Johne", 18);
+        }
+    }
+}
+
+// Default Parameter Value
+
+using System;
+
+namespace myApp{
+    public class Program{
+        
+        static void myMethod(string country = "India"){
+            Console.WriteLine(country);
+        }
+        
+        public static void Main(string[] args){
+            
+            myMethod("UK");
+            myMethod("US");
+            myMethod();
         }
     }
 }
