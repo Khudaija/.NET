@@ -163,3 +163,27 @@ namespace myApp{
         }
     }
 }
+
+// Example
+
+using System;
+
+namespace myApp{
+    public class Program{
+        
+        static void myMethod(int x){
+            
+            for(int i = 1;  i <= x; i++){
+                if(i == 4){
+                    continue;
+                }
+                
+                Console.WriteLine(i);
+            }
+        }
+        
+        public static void Main(string[] args){
+            myMethod(10);
+        }
+    }
+}
