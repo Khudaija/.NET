@@ -117,3 +117,24 @@ namespace myApp{
         }
     }
 }
+
+// Named Arguments
+
+/* It is also possible to send arguments with the key: value syntax.
+That way, the order of the arguments does not matter. */
+
+using System;
+
+namespace myApp{
+    public class Program{
+        
+        static void myMethod(string ch1, string ch2, string ch3){
+            Console.WriteLine("The smallest is " + ch3);
+        }
+        public static void Main(string[] args){
+            myMethod(ch3: "SK", ch2:"AP", ch1:"KP");
+            
+        }
+    }
+}
+
