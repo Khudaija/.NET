@@ -46,3 +46,20 @@ namespace myApp{
     }
 }
 
+// Methode Parameters & Arguments
+
+// Multiple Parammeter
+using System;
+
+namespace myApp{
+    public class Program{
+        
+        static void myMethod(string name, int age){
+            Console.WriteLine(name + " is a " + age + " year old.");
+        }
+        public static void Main(string[] args){
+            myMethod("Anna", 22);
+            myMethod("Johne", 18);
+        }
+    }
+}
