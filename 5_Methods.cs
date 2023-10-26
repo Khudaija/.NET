@@ -29,3 +29,20 @@ namespace myApp{
     }
 }
 
+// Methode Parameters & Arguments
+
+//Single Parammeter
+using System;
+
+namespace myApp{
+    public class Program{
+        
+        static void myMethod(string name){
+            Console.WriteLine(name + " is a Anna");
+        }
+        public static void Main(string[] args){
+            myMethod("Anna");
+        }
+    }
+}
+
