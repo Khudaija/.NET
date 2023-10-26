@@ -81,3 +81,39 @@ namespace myApp{
         }
     }
 }
+
+// Return Values
+
+using System;
+
+namespace myApp{
+    public class Program{
+        
+        static int myFirstMethod(int y){
+            return 5 + y;
+        }
+        
+        static int mySecondMethod(int x, int y){
+            return x + y;
+        }
+        
+        static int myThirdMethod(int x, int y){
+            int z = x + y;
+            return z;
+        }
+        
+        static int myForthMethod(int x, int y){
+            return x + y;
+        }
+        
+        public static void Main(string[] args){
+            
+            Console.WriteLine(myFirstMethod(5));
+            Console.WriteLine(mySecondMethod(5,5));
+            Console.WriteLine(myThirdMethod(5,5));
+            
+            int z = myForthMethod(5, 5);
+            Console.WriteLine(z);
+        }
+    }
+}
