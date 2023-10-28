@@ -60,4 +60,22 @@ namespace OOP{
     }
 }
 
+// Class Member - fields
+
+using System;
+
+namespace OOP{
+    class  Car{
+        
+        string colour = "red";
+        int maxSpeed = 100;
+        
+        static void Main(string[] args){
+            
+            Car myObj = new Car();
+            Console.WriteLine(myObj.colour);
+            Console.WriteLine(myObj.maxSpeed);
+        }
+    }
+}
 
