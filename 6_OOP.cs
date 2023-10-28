@@ -19,7 +19,7 @@ namespace OOP{
     }
 }
 
-// Multiple Class and Object
+// Multiple Object
 
 using System;
 
@@ -27,6 +27,28 @@ namespace OOP{
     class Car{
         
         string colour = "red";
+        
+        static void Main(string[] args){
+            
+            Car myObj1 = new Car();
+            Car myObj2 = new Car();
+            Console.WriteLine(myObj1.colour);
+            Console.WriteLine(myObj2.colour);
+        }
+    }
+}
+
+// Multiple Class
+
+using System;
+
+namespace OOP{
+    
+    class Car{
+        public string colour = "red";
+    }
+    
+    class Program{
         
         static void Main(string[] args){
             
