@@ -243,7 +243,8 @@ namespace OOP{
 - declare fields/variables as private
 - provide public get and set methods, through properties, to access and update the value of a private field 
 
-=> private variables can only be accessed within the same class (an outside class has no access to it). However, sometimes we need to access them - and it can be done with properties
+=> private variables can only be accessed within the same class (an outside class has no access to it). 
+However, sometimes we need to access them - and it can be done with properties
 
 => A property is like a combination of a variable and a method, and it has two methods: a get and a set method
 */
