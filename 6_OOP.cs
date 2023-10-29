@@ -145,3 +145,24 @@ namespace OOP{
     }
 }
 
+// Constructors
+/*special method that is used to initialize objects. The advantage of a constructor, 
+is that it is called when an object of a class is created. It can be used to set initial values for fields */
+
+using System;
+
+namespace OOP{
+    class Car{
+        public string model;
+        
+        public Car(){
+            model = "Mfc";
+        }
+        
+        static void Main(string[] args){
+            Car myObj = new Car();
+            Console.WriteLine(myObj.model);
+        }
+    }
+}
+
