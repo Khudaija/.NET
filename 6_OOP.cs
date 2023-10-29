@@ -79,3 +79,24 @@ namespace OOP{
     }
 }
 
+// Class Member - field define in class and declare in main function
+
+using System;
+
+namespace OOP{
+    class Car{
+        string colour;
+        int maxSpeed;
+        
+        static void Main(string[] args){
+            
+            Car myObj = new Car();
+            myObj.colour = "red";
+            myObj.maxSpeed = 100;
+            
+            Console.WriteLine(myObj.colour);
+            Console.WriteLine(myObj.maxSpeed);
+        }
+    }
+}
+
