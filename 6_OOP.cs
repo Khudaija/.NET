@@ -125,3 +125,23 @@ namespace OOP{
     }
 }
 
+// Class Member - field (Create Method)
+
+using System;
+
+namespace OOP{
+    class Car{
+        string colour;
+        int maxSpeed;
+        
+        public void fulfil(){
+            Console.WriteLine("Print class method");
+        }
+        static void Main(string[] args){
+            
+            Car myObj = new Car();
+            myObj.fulfil();
+        }
+    }
+}
+
