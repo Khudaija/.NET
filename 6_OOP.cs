@@ -326,3 +326,39 @@ namespace OOP{
     }
 }
 
+// Inheritance 
+
+/* 
+it is possible to inherit fields and methods from one class to another.
+
+Derived Class (child) - the class that inherits from another class
+Base Class (parent) - the class being inherited from
+*/
+
+using System;
+
+namespace OOP{
+    class Vehicle{
+        public string brand = "BMW";
+        public void honk(){
+            Console.WriteLine("Tuut, tuut!");
+        }
+    }
+    
+    class Car: Vehicle{
+        public string modelName = "MFC";
+    }
+    
+    class Program{
+        
+        static void Main(string[] args){
+        
+            Car myObj =  new Car();
+        
+            myObj.honk();
+            Console.WriteLine(myObj.brand);
+            Console.WriteLine(myObj.modelName);
+        }
+    }
+}
+
