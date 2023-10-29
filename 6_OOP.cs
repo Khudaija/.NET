@@ -100,3 +100,28 @@ namespace OOP{
     }
 }
 
+// Class Member - field creating multiple objects of one class - define in class and declare in main function
+
+using System;
+
+namespace OOP{
+    class Car{
+        string colour;
+        int maxSpeed;
+        
+        static void Main(string[] args){
+            
+            Car myObj = new Car();
+            myObj.colour = "red";
+            myObj.maxSpeed = 100;
+            
+            Car BMW = new Car();
+            BMW.colour = "Black";
+            BMW.maxSpeed = 125;
+            
+            Console.WriteLine(myObj.colour);
+            Console.WriteLine(BMW.colour);
+        }
+    }
+}
+
