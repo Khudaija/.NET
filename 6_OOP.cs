@@ -167,3 +167,22 @@ namespace OOP{
     }
 }
 
+// Constructors Parameter
+
+using System;
+
+namespace OOP{
+    class Car{
+        public string model;
+        
+        public Car(string modelName){
+            model = modelName;
+        }
+        
+        static void Main(string[] args){
+            Car myObj = new Car("Mfc");
+            Console.WriteLine(myObj.model);
+        }
+    }
+}
+
