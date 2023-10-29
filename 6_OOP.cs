@@ -186,3 +186,29 @@ namespace OOP{
     }
 }
 
+// Multiple constructor Parameters
+
+using System;
+
+namespace myApp{
+    class Car{
+        public string model;
+        public string colour;
+        public int year;
+        
+        public Car(string modelName, string modelColour, int modelYear){
+            model = modelName;
+            colour = modelColour;
+            year = modelYear;
+        }
+        
+        static void Main(string[] args){
+            
+            Car Ford = new Car("MFC", "Black", 1998);
+            Console.WriteLine(Ford.model);
+            Console.WriteLine(Ford.year);
+            Console.WriteLine(Ford.colour);
+        }
+    }
+}
+
