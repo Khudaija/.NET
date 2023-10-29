@@ -212,3 +212,27 @@ namespace myApp{
     }
 }
 
+// Access Modifier - all members of a class are private if you don't specify an access modifier
+
+using System;
+
+namespace OOP{
+    class Car{
+        private string fullname = "abc";
+    }
+    
+    class Program{
+        private string name = "xyz";
+        
+        static void Main(string[] args){
+
+            // if access modifier is private then other class object is inaccessible due to its protection level
+            /* Car myObj = new Car(); // Error
+            Console.WriteLine(myObj.fullname);  */
+            
+            Program myObj1 = new Program();
+            Console.WriteLine(myObj1.name);
+        }
+    }
+}
+
