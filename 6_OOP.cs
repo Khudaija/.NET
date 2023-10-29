@@ -304,3 +304,25 @@ namespace OOP{
     }
 }
 
+// Properties (Get and Set) and Encapsulation
+
+using System;
+
+namespace OOP{
+    class Person{
+        public string Name{
+            get;
+            set;
+        }
+    }
+    
+    class Program{
+        static void Main(string[] args){
+            
+            Person myObj = new Person();
+            myObj.Name = "SK";
+            Console.WriteLine(myObj.Name);
+        }
+    }
+}
+
