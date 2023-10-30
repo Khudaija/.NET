@@ -44,3 +44,28 @@ namespace OOP{
     }
 }
 
+// enume value
+
+using System;
+
+namespace OOP{
+    class Program{
+        
+        enum Months{
+            Jan,
+            Feb,
+            Mar,
+            Apr,
+            May,
+            Jun,
+            Jul,
+            Agu
+        }
+        
+        static void Main(string[] args){
+            int myNum = (int) Months.Apr;
+            Console.WriteLine(myNum);
+        }
+    }
+}
+
