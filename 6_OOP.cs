@@ -366,7 +366,8 @@ namespace OOP{
 // Polymorphism
 /* Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
 
-Inheritance lets us inherit fields and methods from another class. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways.
+Inheritance lets us inherit fields and methods from another class. Polymorphism uses those methods to perform different tasks. 
+This allows us to perform a single action in different ways.
 */
 
 using System;
@@ -497,6 +498,7 @@ namespace OOP{
 --> Interface methods do not have a body - the body is provided by the "implement" class
 --> On implementation of an interface, you must override all of its methods
 --> An interface cannot contain a constructor (as it cannot be used to create objects)
+--> To achieve security - hide certain details and only show the important details of an object (interface).
 */
 
 using System;
@@ -516,6 +518,40 @@ namespace OOP{
         static void Main(string[] args){
             Dog myAnimal = new Dog();
             myAnimal.animalSound();
+        }
+    }
+}
+
+// Multiple Interfaces
+
+using System;
+
+namespace OOP{
+    interface Ifirst{
+        void myInterface();
+    }
+    
+    interface Isecond{
+        void myOtherInterface();
+    }
+    
+    class DemoClass: Ifirst, Isecond{
+        public void myInterface(){
+            Console.WriteLine("my text...");
+        }
+        
+        public void myOtherInterface(){
+            Console.WriteLine("my Other text...");
+        }
+    }
+    
+    class Program{
+        static void Main(string[] args){
+            
+            DemoClass myObj = new DemoClass();
+            
+            myObj.myInterface();
+            myObj.myOtherInterface();
         }
     }
 }
