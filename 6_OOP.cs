@@ -485,3 +485,34 @@ namespace OOP{
     }
 }
 
+// Interface
+
+/* 
+--> Another way to achieve abstraction in C#, is with interfaces.
+--> An interface is a completely "abstract class", which can only contain abstract methods and properties (with empty bodies)
+--> By default, members of an interface are abstract and public.
+--> Interfaces can contain properties and methods, but not fields.
+--> do not have to use the override keyword when implementing an interface
+*/
+
+using System;
+
+namespace OOP{
+    interface Animal{
+        void animalSound();
+    }
+    
+    class Dog: Animal{
+        public void animalSound(){
+            Console.WriteLine("Dog... bow... bow...");
+        }
+    }
+    
+    class Program{
+        static void Main(string[] args){
+            Dog myAnimal = new Dog();
+            myAnimal.animalSound();
+        }
+    }
+}
+
