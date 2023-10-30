@@ -363,3 +363,43 @@ namespace OOP{
     }
 }
 
+// Polymorphism
+/* Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+
+Inheritance lets us inherit fields and methods from another class. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways.
+*/
+
+using System;
+
+namespace OOP{
+    class Animal{
+        public void animalSound(){
+            Console.WriteLine("The animal makes a sound");
+        }
+    }
+    
+    class God: Animal{
+        public void animalSound(){
+            Console.WriteLine("God... Mahe... mahe.....");
+        }
+    }
+    
+    class Dog: Animal{
+        public void animalSound(){
+            Console.WriteLine("Dog... bow... bow...");
+        }
+    }
+    
+    class Program{
+        static void Main(string[] args){
+            Animal myAnimal = new Animal();
+            God myGod = new God();
+            Dog myDog = new Dog();
+            
+            myAnimal.animalSound();
+            myGod.animalSound();
+            myDog.animalSound();
+        }
+    }
+}
+
