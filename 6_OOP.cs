@@ -392,6 +392,11 @@ namespace OOP{
     
     class Program{
         static void Main(string[] args){
+
+            // Animal myAnimal = new Animal();
+            // Animal myGod = new God();
+            // Animal myDog = new Dog();
+            
             Animal myAnimal = new Animal();
             God myGod = new God();
             Dog myDog = new Dog();
