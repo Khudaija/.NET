@@ -493,6 +493,10 @@ namespace OOP{
 --> By default, members of an interface are abstract and public.
 --> Interfaces can contain properties and methods, but not fields.
 --> do not have to use the override keyword when implementing an interface
+--> Like abstract classes, interfaces cannot be used to create objects 
+--> Interface methods do not have a body - the body is provided by the "implement" class
+--> On implementation of an interface, you must override all of its methods
+--> An interface cannot contain a constructor (as it cannot be used to create objects)
 */
 
 using System;
@@ -515,4 +519,3 @@ namespace OOP{
         }
     }
 }
-
