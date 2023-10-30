@@ -408,3 +408,41 @@ namespace OOP{
     }
 }
 
+// Polymorphism
+/* override the base class method, by adding the virtual keyword to the method inside the base class, and by using the override keyword for each derived class methods
+*/
+
+using System;
+
+namespace OOP{
+    class Animal{
+        public virtual void animalSound(){
+            Console.WriteLine("The animal makes a sound");
+        }
+    }
+    
+    class God: Animal{
+        public override void animalSound(){
+            Console.WriteLine("God... Mahe... mahe.....");
+        }
+    }
+    
+    class Dog: Animal{
+        public override void animalSound(){
+            Console.WriteLine("Dog... bow... bow...");
+        }
+    }
+    
+    class Program{
+        static void Main(string[] args){
+            Animal myAnimal = new Animal();
+            Animal myGod = new God();
+            Animal myDog = new Dog();
+            
+            myAnimal.animalSound();
+            myGod.animalSound();
+            myDog.animalSound();
+        }
+    }
+}
+
