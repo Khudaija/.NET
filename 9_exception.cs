@@ -45,3 +45,24 @@ namespace Exce{
     }
 }
 
+// Finally - The finally statement lets you execute code, after try...catch, regardless of the result
+
+using System;
+
+namespace Exce{
+    class Program{
+        static void Main(string[] args){
+            try{
+                int[] myNum = {1, 3,6};
+                Console.WriteLine(myNum[1]);
+            }
+            catch (Exception e){
+                Console.WriteLine("Something Went Wrong!");
+            }
+            finally{
+                Console.WriteLine("The 'try catch' is finished.");
+            }
+        }
+    }
+}
+
