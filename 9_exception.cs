@@ -66,3 +66,27 @@ namespace Exce{
     }
 }
 
+// The throw Keyword
+
+/* The throw statement allows you to create a custom error.
+
+The throw statement is used together with an exception class. 
+There are many exception classes available in C#: ArithmeticException, FileNotFoundException, IndexOutOfRangeException, TimeOutException, etc */
+
+using System;
+
+namespace Exce{
+    class Program{
+        static void checkAge(int Age){
+            if(Age<18){
+                throw new ArithmeticException(" access denied");
+            }
+            else{
+                Console.WriteLine("Access Granted");
+            }
+        }
+        static void Main(string[] args){
+            checkAge(12);
+        }
+    }
+}
