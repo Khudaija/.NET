@@ -27,3 +27,21 @@ namespace Exce{
     }
 }
 
+// Try and Catch
+
+using System;
+
+namespace Exce{
+    class Program{
+        static void Main(string[] args){
+            try{
+                int[] myNum = {1, 3,6};
+                Console.WriteLine(myNum[10]);
+            }
+            catch (Exception e){
+                Console.WriteLine("Something Went Wrong!");
+            }
+        }
+    }
+}
+
