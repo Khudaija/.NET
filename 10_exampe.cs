@@ -215,3 +215,30 @@ namespace pattern{
         }
     }
 }
+
+// binar triangle pattern
+
+using System;
+
+namespace pattern{
+    class Program{
+        static void Main(string[] args){
+            int n = 4;
+            for(int i = 1; i <= n; i++){
+                for(int j = n ; j >= n-i; j--){
+                    Console.Write("  ");
+                }
+                for(int j = n; j >= i; j--){
+                    int sum = i + j;
+                    if(sum % 2 == 0){
+                        Console.Write(1 + " ");
+                    }
+                    else{
+                        Console.Write(0 + " ");
+                    }
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
