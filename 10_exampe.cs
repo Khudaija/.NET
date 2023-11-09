@@ -242,3 +242,26 @@ namespace pattern{
         }
     }
 }
+
+// alphbetically rectangle pattern
+
+using System;
+
+namespace pattern{
+    class Program{
+        static void Main(string[] args){
+            int n = 4;
+            
+            for(int i=1; i<=n; i++){
+                for(int j=1; j<= n-i; j++){
+                    Console.Write(" ");
+                }
+                for(int j=1; j<= i; j++){
+                    Console.Write("A ");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
+
