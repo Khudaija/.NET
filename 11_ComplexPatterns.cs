@@ -43,6 +43,7 @@ namespace pattern{
     }
 }
 
+
 //star pattern
 
 using System;
