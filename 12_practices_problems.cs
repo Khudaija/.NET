@@ -68,3 +68,24 @@ namespace Practice{
     }
 }
 
+// swap two numbers without 3rd variable
+
+using System;
+
+namespace Practice{
+    class Program{
+        static void Main(string[] args){
+            int a = 3;
+            int b = 4;
+            
+            Console.WriteLine("Before Swapping : " + a + " , " + b);
+            
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            
+            Console.WriteLine("After Swapping : " + a + " , " + b);
+        }
+    }
+}
+
