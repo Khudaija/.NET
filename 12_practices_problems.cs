@@ -89,3 +89,23 @@ namespace Practice{
     }
 }
 
+// multiplication of three numbers entered by the user
+
+using System;
+
+namespace Practice{
+    class Program{
+        static void Main(string[] args){
+            Console.WriteLine("Enter First Number: ");
+            int firstNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Second Number: ");
+            int secondNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Third Number: ");
+            int thirdNum = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Multiplication of three numbers: ");
+            Console.WriteLine(firstNum * secondNum * thirdNum);
+        }
+    }
+}
+
