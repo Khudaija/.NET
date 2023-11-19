@@ -46,3 +46,25 @@ namespace Practices{
         }
     }
 }
+
+// swap two numbers with 3rd variable
+
+using System;
+
+namespace Practice{
+    class Program{
+        static void Main(string[] args){
+            int a = 3;
+            int b = 4;
+            
+            Console.WriteLine("Before Swapping : " + a + " , " + b);
+            
+            int temp = a;
+            a = b;
+            b = temp;
+            
+            Console.WriteLine("After Swapping : " + a + " , " + b);
+        }
+    }
+}
+
