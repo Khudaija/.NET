@@ -109,3 +109,24 @@ namespace Practice{
     }
 }
 
+// adding, subtracting, multiplying and dividing two numbers entered by the user
+
+using System;
+
+namespace Practice{
+    class Program{
+        static void Main(string[] args){
+            Console.WriteLine("Enter First Number: ");
+            int firstNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Second Number: ");
+            int secondNum = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Adding: " + firstNum + secondNum);
+            Console.WriteLine("Substracting: " + (firstNum - secondNum));
+            Console.WriteLine("Multiplication: " + firstNum * secondNum);
+            Console.WriteLine("Dividing: " + firstNum / secondNum);
+            Console.WriteLine("Module: " + firstNum % secondNum);
+        }
+    }
+}
+
