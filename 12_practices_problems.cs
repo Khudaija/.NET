@@ -130,3 +130,21 @@ namespace Practice{
     }
 }
 
+// multiplication table of a number as input
+
+using System;
+
+namespace Practice{
+    class Program{
+        static void Main(string[] args){
+            int n = 5;
+            
+            for(int i = 1; i<=10; i++){
+                
+                int mul = i * n;
+                Console.WriteLine(n + " X " + i + " = " + mul );
+            }
+        }
+    }
+}
+
