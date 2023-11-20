@@ -196,3 +196,22 @@ namespace Practice{
     }
 }
 
+// takes an age (for example 20) as input and prints something like 
+//"You look older than 20"
+
+using System;
+
+namespace Practice{
+    class Program{
+        static void Main(string[] args){
+            int age = 20;
+            if(age>20){
+                Console.WriteLine("You are below 18.");
+            }
+            else{
+                Console.WriteLine("Your look older than 20.");
+            }
+        }
+    }
+}
+
