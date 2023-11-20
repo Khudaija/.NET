@@ -148,3 +148,22 @@ namespace Practice{
     }
 }
 
+// takes four numbers as input to calculate and print the average
+
+using System;
+
+namespace Practice{
+    class Program{
+        static void Main(string[] args){
+            Console.WriteLine("Enter four numbers: ");
+            int n1 = Convert.ToInt32(Console.ReadLine());
+            int n2 = Convert.ToInt32(Console.ReadLine());
+            int n3 = Convert.ToInt32(Console.ReadLine());
+            int n4 = Convert.ToInt32(Console.ReadLine());
+            
+            int sum = (n1 + n2 + n3 + n4)/4;
+            Console.WriteLine("Average: " + sum);
+        }
+    }
+}
+
