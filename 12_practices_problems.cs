@@ -167,3 +167,32 @@ namespace Practice{
     }
 }
 
+//  takes three numbers (x,y,z) as input and outputs (x+y).z and x.y + y.z. 
+/* 
+Enter first number - 5
+Enter second number - 6
+Enter third number - 7
+*/
+
+using System;
+
+namespace Practice{
+    class Program{
+        static void Main(string[] args){
+            Console.WriteLine("Enter first number: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter second number: ");
+            int y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter third number: ");
+            int z = Convert.ToInt32(Console.ReadLine());
+            
+            int firstEquation = (x + y)*z;
+            Console.WriteLine("(x + y).z = " + firstEquation);
+            
+            int secondEquation = x * y + y * z;
+            Console.WriteLine("x.y + y.z = " + secondEquation);
+            
+        }
+    }
+}
+
