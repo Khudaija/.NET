@@ -1,5 +1,4 @@
 // Star Pattern
-
 using System;
 
 namespace pattern{
@@ -17,7 +16,6 @@ namespace pattern{
 }
 
 // Pattern
-
 using System;
 
 namespace Pattern{
@@ -43,7 +41,6 @@ namespace Pattern{
 }
 
 //star pattern 
-
 using System;
 
 namespace pattern{
@@ -63,7 +60,6 @@ namespace pattern{
 }
 
 //star pattern
-
 using System;
 
 namespace pattern{
@@ -104,7 +100,6 @@ namespace pattern{
 }
 
 // number pattern
-
 using System;
 
 namespace pattern{
@@ -122,7 +117,6 @@ namespace pattern{
 }
 
 // number pattern
-
 using System;
 
 namespace pattern{
@@ -141,7 +135,6 @@ namespace pattern{
 }
 
 // binary square pattern
-
 using System;
 
 namespace pattern{
@@ -165,7 +158,6 @@ namespace pattern{
 }
 
 // binary triangle pattern
-
 using System;
 
 namespace pattern{
@@ -190,7 +182,6 @@ namespace pattern{
 }
 
 // binar triangle pattern
-
 using System;
 
 namespace pattern{
@@ -217,7 +208,6 @@ namespace pattern{
 }
 
 // binar triangle pattern
-
 using System;
 
 namespace pattern{
@@ -244,7 +234,6 @@ namespace pattern{
 }
 
 // alphbetically rectangle pattern
-
 using System;
 
 namespace pattern{
