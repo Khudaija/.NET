@@ -1,5 +1,4 @@
 // First program - Hello World
-
 using System; 
     class Hello{
         static void Main(string[] args){
@@ -18,7 +17,6 @@ using System; // that we can use classes from the System namespace
     }
 
 // Input
-
 using System;
     namespace Hello{
         class Program{
@@ -31,7 +29,6 @@ using System;
     }
 
 //Variables
-
 using System;
 namespace Variables{
     public class Program{
@@ -51,7 +48,6 @@ namespace Variables{
 }
 
 // DataType
-
 using System;
 namespace DataType{
     public class Program{
@@ -71,7 +67,6 @@ namespace DataType{
 }
 
 // Type Casting
-
 using System;
 
 namespace TypeCasting{
@@ -109,7 +104,6 @@ namespace TypeCasting{
 }
 
 // User Input
-
 using System;
 
 namespace UserInput{
@@ -125,7 +119,6 @@ namespace UserInput{
 }
 
 //User Input Number
-
 using System;
 
 namespace UserInput{
@@ -141,7 +134,6 @@ namespace UserInput{
 }
 
 //Operator
-
 using System;
 
 namespace Operator{
@@ -172,7 +164,6 @@ namespace Operator{
 }
 
 //Assignment Operator
-
 using System;
 
 namespace Operator{
@@ -216,7 +207,6 @@ namespace Operator{
 }
 
 // Math
-
 using System;
 
 namespace myApp{
