@@ -264,3 +264,20 @@ namespace pattern{
         }
     }
 }
+
+// convert Celsius degrees to Kelvin and Fahrenheit
+using System;
+
+namespace Problem{
+    class prog{
+        static void Main(string[] args){
+            double Celsius = 25;
+            
+            double Kelvin = Celsius + 273.15;
+            Console.WriteLine("Kelvin: " + Kelvin);
+            
+            double Fahrenheit = (Celsius * (9/5)) + 32;
+            Console.WriteLine("Fahrenheit: " + Fahrenheit);
+        }
+    }
+}
