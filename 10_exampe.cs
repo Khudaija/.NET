@@ -270,3 +270,20 @@ namespace Problem{
         }
     }
 }
+
+//removes a specified character from a non-empty string using the index of a character
+using System;
+using System.Collections.Generic;
+
+namespace problem{
+    class Prog{
+        // Function to remove a character at the specified index
+        public static string remove_char(string str, int n){
+            return str.Remove(n,1);  // Using Remove method to eliminate the character at index n
+        }
+        
+        static void Main(string[] args){
+            Console.WriteLine(remove_char("w3school", 2));
+        }
+    }
+}
