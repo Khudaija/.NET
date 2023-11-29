@@ -287,3 +287,25 @@ namespace problem{
         }
     }
 }
+
+// Display three letters in reverse order
+using System;
+namespace Problem{
+    class Prog{
+        static void Main(string[] args){
+            char a1, a2, a3;
+            
+            Console.Write("1... ");
+            a1 = Convert.ToChar(Console.ReadLine());
+            
+            Console.Write("2... ");
+            a2 = Convert.ToChar(Console.ReadLine());
+            
+            Console.Write("3... ");
+            a3 = Convert.ToChar(Console.ReadLine());
+            
+            Console.WriteLine("{2} {1} {0} " , a1, a2, a3);
+        }
+    }
+}
+
