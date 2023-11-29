@@ -309,3 +309,20 @@ namespace Problem{
     }
 }
 
+// takes a number and a width also a number. It then displays a triangle of that width using that number
+using System;
+namespace Problem{
+    class Prog{
+        static void Main(string[] args){
+            Console.Write("Enter the number: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            
+            for(int i = n; i>=1; i--){
+                for(int j=1; j<=i; j++){
+                    Console.Write(n + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
