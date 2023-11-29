@@ -1,6 +1,5 @@
 // Star Pattern
 using System;
-
 namespace pattern{
     class Program{
         static void Main(string[] args){
@@ -17,7 +16,6 @@ namespace pattern{
 
 // Pattern
 using System;
-
 namespace Pattern{
     class Program{
         static void Main(string[] args){
@@ -42,7 +40,6 @@ namespace Pattern{
 
 //star pattern 
 using System;
-
 namespace pattern{
     class Program{
         static void Main(string[] args){
@@ -61,7 +58,6 @@ namespace pattern{
 
 //star pattern
 using System;
-
 namespace pattern{
     class Program{
         static void Main(string[] args){
@@ -78,9 +74,7 @@ namespace pattern{
 }
 
 // Star Pattern
-
 using System;
-
 namespace pattern{
     class Program{
         static void Main(string[] args){
@@ -101,7 +95,6 @@ namespace pattern{
 
 // number pattern
 using System;
-
 namespace pattern{
     class Program{
         static void Main(string[] args){
@@ -118,7 +111,6 @@ namespace pattern{
 
 // number pattern
 using System;
-
 namespace pattern{
     class Program{
         static void Main(string[] args){
@@ -136,7 +128,6 @@ namespace pattern{
 
 // binary square pattern
 using System;
-
 namespace pattern{
     class program{
         static void Main(string[] args){
@@ -159,7 +150,6 @@ namespace pattern{
 
 // binary triangle pattern
 using System;
-
 namespace pattern{
     class Program{
         static void Main(string[] args){
@@ -183,7 +173,6 @@ namespace pattern{
 
 // binar triangle pattern
 using System;
-
 namespace pattern{
     class Program{
         static void Main(string[] args){
@@ -209,7 +198,6 @@ namespace pattern{
 
 // binar triangle pattern
 using System;
-
 namespace pattern{
     class Program{
         static void Main(string[] args){
@@ -235,7 +223,6 @@ namespace pattern{
 
 // alphbetically rectangle pattern
 using System;
-
 namespace pattern{
     class Program{
         static void Main(string[] args){
@@ -256,7 +243,6 @@ namespace pattern{
 
 // convert Celsius degrees to Kelvin and Fahrenheit
 using System;
-
 namespace Problem{
     class prog{
         static void Main(string[] args){
@@ -274,7 +260,6 @@ namespace Problem{
 //removes a specified character from a non-empty string using the index of a character
 using System;
 using System.Collections.Generic;
-
 namespace problem{
     class Prog{
         // Function to remove a character at the specified index
