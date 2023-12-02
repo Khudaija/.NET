@@ -266,3 +266,26 @@ namespace Problem{
         }
     }
 }
+
+
+//takes userid and password as input (string type). After 3 unsuccessful attempts, the user will be rejected
+using System;
+namespace User_Pass{
+    class Problem{
+        static void Main(string[] args){
+            string username = "Khudaija";
+            string pass = "abc@123";
+            
+            string Enter_Username = Console.ReadLine();
+            string Enter_Pass = Console.ReadLine();
+            
+            if(username == Enter_Username || pass == Enter_Pass){
+                Console.WriteLine("Welcome...");
+            }
+            else{
+                Console.WriteLine("Invalid!");
+            }
+        }
+    }
+}
+
