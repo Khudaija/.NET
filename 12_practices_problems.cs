@@ -1,7 +1,5 @@
 //  print Hello and your name in a separate line
-
 using System;
-
 namespace Practices{
     class Program{
         static void Main(string[] args){
@@ -15,9 +13,7 @@ namespace Practices{
 
 
 // print the sum of two numbers  
-
 using System;
-
 namespace Practices{
     class Program{
         static void Main(string[] args){
@@ -33,9 +29,7 @@ namespace Practices{
 
 
 // print the result of dividing two numbers
-
 using System;
-
 namespace Practices{
     class Program{
         static void Main(string[] args){
@@ -50,9 +44,7 @@ namespace Practices{
 }
 
 // swap two numbers with 3rd variable
-
 using System;
-
 namespace Practice{
     class Program{
         static void Main(string[] args){
@@ -71,9 +63,7 @@ namespace Practice{
 }
 
 // swap two numbers without 3rd variable
-
 using System;
-
 namespace Practice{
     class Program{
         static void Main(string[] args){
@@ -92,9 +82,7 @@ namespace Practice{
 }
 
 // multiplication of three numbers entered by the user
-
 using System;
-
 namespace Practice{
     class Program{
         static void Main(string[] args){
@@ -112,9 +100,7 @@ namespace Practice{
 }
 
 // adding, subtracting, multiplying and dividing two numbers entered by the user
-
 using System;
-
 namespace Practice{
     class Program{
         static void Main(string[] args){
@@ -133,7 +119,6 @@ namespace Practice{
 }
 
 // multiplication table of a number as input
-
 using System;
 
 namespace Practice{
@@ -151,9 +136,7 @@ namespace Practice{
 }
 
 // takes four numbers as input to calculate and print the average
-
 using System;
-
 namespace Practice{
     class Program{
         static void Main(string[] args){
@@ -175,9 +158,7 @@ Enter first number - 5
 Enter second number - 6
 Enter third number - 7
 */
-
 using System;
-
 namespace Practice{
     class Program{
         static void Main(string[] args){
@@ -200,9 +181,7 @@ namespace Practice{
 
 // takes an age (for example 20) as input and prints something like 
 //"You look older than 20"
-
 using System;
-
 namespace Practice{
     class Program{
         static void Main(string[] args){
