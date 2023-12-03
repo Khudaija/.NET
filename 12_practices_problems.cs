@@ -327,3 +327,42 @@ namespace User_Pass{
         }
     }
 }
+
+// takes two numbers as input and performs an operation (+,-,*,x,/) on them and displays the result of that operation
+
+using System;
+namespace Program{
+    class Problem{
+        static void Main(string[] args){
+            int x, y; 
+            char operation;
+            
+            Console.Write("Enter the x: ");
+            x = Convert.ToInt32(Console.ReadLine());
+            
+            Console.Write("Enter the y: ");
+            y = Convert.ToInt32(Console.ReadLine());
+            
+            Console.Write("Input Operator(+,-,*,x,/): ");
+            operation = Convert.ToChar(Console.ReadLine());
+            
+            if(operation == '+'){
+                Console.WriteLine("{0} + {1} = {2}", x,y, x+y);
+            }
+            else if(operation == '-'){
+                Console.WriteLine("{0} - {1} = {2}", x,y, x-y);
+            }
+            else if((operation == '*') || (operation == 'x')){
+                Console.WriteLine("{0} * {1} = {2}", x,y, x*y);
+            }
+            else if(operation == '/'){
+                Console.WriteLine("{0} / {1} = {2}", x,y , x/y);
+            }
+            else{
+                Console.WriteLine("Wrong Charachter...");
+            }
+        }
+    }
+}
+
+
