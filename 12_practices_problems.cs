@@ -365,4 +365,21 @@ namespace Program{
     }
 }
 
+// takes the radius of a circle as input and calculates the perimeter and area of the circle
+
+using System;
+namespace Program{
+    class Problem{
+        static void Main(string[] args){
+            double r, per_cir;
+            double PI = 3.14;
+            Console.Write("Enter the radius: ");
+            r = Convert.ToInt32(Console.ReadLine());
+            per_cir = 2 * PI * r;
+            
+            Console.WriteLine("Calculates the perimeter and area of the circle: {0}", per_cir);
+        }
+    }
+}
+
 
