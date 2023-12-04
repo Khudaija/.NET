@@ -382,4 +382,23 @@ namespace Program{
     }
 }
 
+// display certain values of the function x = y2 + 2y + 1 (using integer numbers for y, ranging from -5 to +5)
+
+using System;
+namespace Program{
+    class Problem{
+        static void Main(string[] args){
+            int x, y;
+            Console.WriteLine("Enter the value of y in range of -5 to +5");
+            y = Convert.ToInt32(Console.ReadLine());
+            if(y>=-5 || y<=5){
+                x = y*y + 2*y + 1;
+                Console.WriteLine(x);
+            }
+            else{
+                Console.WriteLine("Please enter the value of y in range of -5 to +5");
+            }
+        }
+    }
+}
 
