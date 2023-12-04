@@ -402,3 +402,23 @@ namespace Program{
     }
 }
 
+// display certain values of the function x = y^2 - 2y + 1 (using integer numbers for y, ranging from -5 to +5)
+
+using System;
+namespace Program{
+    class Problem{
+        static void Main(string[] args){
+            int x, y;
+            
+            Console.WriteLine("x = y^2 - 2y + 1");
+            Console.WriteLine();
+            
+            for(y=-5; y<=5; y++){
+                x = y * y - 2 * y + 1;
+                Console.WriteLine("y = {1}; x = {1}^2 - 2 *{1} + 1 = {0}", x,y);
+                
+            }
+        }
+    }
+}
+
