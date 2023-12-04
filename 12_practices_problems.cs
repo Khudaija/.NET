@@ -455,3 +455,25 @@ namespace Program{
     }
 }
 
+
+// accept two integers and check whether they are equal or not
+
+using System;
+namespace Program{
+    class Problem{
+        static void Main(string[] args){
+            Console.Write("Enter the 1st number: ");
+            int first_Num = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the 2nd number: ");
+            int second_num = Convert.ToInt32(Console.ReadLine());
+            
+            if(first_Num == second_num){
+                    Console.WriteLine("{0} and {1} are equal.", first_Num,second_num);
+            }
+            else{
+                Console.WriteLine("{0} and {1} are not equal.", first_Num,second_num);
+            }
+        }
+    }
+}
+
