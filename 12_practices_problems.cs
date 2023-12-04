@@ -422,3 +422,36 @@ namespace Program{
     }
 }
 
+// takes distance and time as input and displays speed in kilometres per hour and miles per hour
+
+using System;
+namespace Program{
+    class Problem{
+        static void Main(string[] args){
+            double timeSec, mps, kph, mph;
+            double hour, min, sec;
+            double distance;
+        
+            Console.Write("Enter the hour: ");
+            hour = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter the min: ");
+            min = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter the sec: ");
+            sec = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter the distance(meter): ");
+            distance = Convert.ToDouble(Console.ReadLine());
+        
+            timeSec = (hour * 3600) + (min * 60) + sec;
+            mps = distance / timeSec;
+            kph = (distance/1000) / (timeSec / 3600);
+            mph = kph / 1.609;
+        
+            Console.WriteLine("timeSec: " + timeSec);
+            Console.WriteLine("mps: " + mps);
+            Console.WriteLine("kph: " + kph);
+            Console.WriteLine("mph: " + mph);
+        }
+        
+    }
+}
+
