@@ -477,3 +477,23 @@ namespace Program{
     }
 }
 
+// takes the radius of a sphere as input and calculates and displays the surface and volume of the sphere
+using System;
+namespace Program{
+    class problem{
+        static void Main(string[] args){
+            double V, r;
+            double PI = 3.1415926535D;
+            
+            Console.Write("Enter the radius: ");
+            r = Convert.ToInt32(Console.ReadLine());
+            
+            double S = 4 * PI * (r * r); 
+            
+            V = (4f/3f) * PI * (r * r * r);
+            
+            Console.WriteLine("Calculate the surface and volume of te shere: " + V + " And " + S);
+        }
+    }
+}
+
