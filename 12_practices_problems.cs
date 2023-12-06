@@ -497,3 +497,26 @@ namespace Program{
     }
 }
 
+// takes a character as input and checks if it is a vowel, a digit, or any other symbol
+using System;
+namespace Program{
+    class Problem{
+        static void Main(string[] args){
+            char symbol;
+            
+            Console.Write("Enter the symbol: ");
+            symbol = Convert.ToChar(Console.ReadLine());
+            
+            if((symbol == 'a') || (symbol == 'e') || (symbol == 'i') || (symbol == 'o') || (symbol == 'u')){
+                Console.WriteLine("It is a vowel");
+            }
+            else if((symbol >= '0') || (symbol <= '9')){
+                Console.WriteLine("It is a digit");
+            }
+            else{
+                Console.WriteLine("any other symbol.....");
+            }
+        }
+    }
+}
+
