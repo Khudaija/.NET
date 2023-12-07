@@ -1,7 +1,5 @@
 // String
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -15,10 +13,9 @@ namespace myApp{
     }
 }
 
+
 // String Concatenation
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -41,10 +38,9 @@ namespace myApp{
     }
 }
 
+
 // Interpolation
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -57,10 +53,9 @@ namespace myApp{
     }
 }
 
+
 // Access String
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -78,9 +73,7 @@ namespace myApp{
 }
 
 // Special Characters - \n, \t, \b
-
 using System;
- 
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -97,5 +90,4 @@ namespace myApp{
         }
     }
 }
-
 
