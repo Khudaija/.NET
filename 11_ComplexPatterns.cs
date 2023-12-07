@@ -1,7 +1,5 @@
 //buttefly star pattern
-
 using System;
-
 namespace pattern{
     class Program{
         static void Main(string[] args){
@@ -45,7 +43,6 @@ namespace pattern{
 
 
 //star pattern
-
 using System;
 namespace pattern{
     class Program{
@@ -65,10 +62,9 @@ namespace pattern{
     }
 }
 
+
 // star pattern
-
 using System;
-
 namespace Pattern{
     class Program{
         static void Main(string[] args){
@@ -91,10 +87,9 @@ namespace Pattern{
     }
 }
 
+
 // pattern
-
 using System;
-
 namespace Pattern{
     class Program{
         static void Main(string[] args){
