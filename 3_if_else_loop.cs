@@ -1,7 +1,5 @@
 // if, else if & else....
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -22,10 +20,9 @@ namespace myApp{
     }
 }
 
+
 // short hand if else
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -39,10 +36,9 @@ namespace myApp{
     }
 }
 
+
 // Switch
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -65,10 +61,9 @@ namespace myApp{
     }
 }
 
+
 // While
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -82,10 +77,9 @@ namespace myApp{
     }
 }
 
+
 // While
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -99,10 +93,9 @@ namespace myApp{
     }
 }
 
+
 // for loop
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -114,10 +107,9 @@ namespace myApp{
     }
 }
 
+
 // nested loop
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -131,10 +123,9 @@ namespace myApp{
     }
 }
 
+
 // for each loop - is used exclusively to loop through elements in an array
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -147,10 +138,9 @@ namespace myApp{
     }
 }
 
+
 // break
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -165,10 +155,9 @@ namespace myApp{
     }
 }
 
+
 // continue
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
