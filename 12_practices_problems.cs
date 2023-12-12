@@ -542,3 +542,26 @@ namespace Program{
         }
     }
 }
+
+
+//takes a decimal number as input and displays its equivalent in binary form
+using System;
+namespace Program{
+    class Problem{
+        static void Main(string[] args){
+            int number;
+            string result;
+            Console.Write("Input number: ");
+            number = Convert.ToInt32(Console.ReadLine());
+            
+            result = "";
+            while(number>1){
+                int remainder = number % 2;
+                result = Convert.ToInt32(remainder) + result;
+                number /=2;
+            }
+            result = Convert.ToInt32(number) + result;
+            Console.WriteLine("binary: {0}", result);
+        }
+    }
+}
