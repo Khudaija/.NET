@@ -520,3 +520,25 @@ namespace Program{
     }
 }
 
+
+//takes two numbers as input and returns true or false when both numbers are even or odd
+using System;
+namespace Program{
+    class Problem{
+        static void Main(string[] args){
+            
+            bool bothEven;
+            int n1 , n2;
+            
+            Console.Write("Enter the first number: ");
+            n1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the second number: ");
+            n2 = Convert.ToInt32(Console.ReadLine());
+            
+            bothEven = ((n1%2==0) && (n2%2==0)) ? true:false;
+            
+            Console.WriteLine(bothEven ? "there's both numbers are even" : "ther's a odd number");
+            
+        }
+    }
+}
