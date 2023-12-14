@@ -68,7 +68,6 @@ namespace DataType{
 
 // Type Casting
 using System;
-
 namespace TypeCasting{
     public class Program{
         public static void Main(string[] args){
@@ -120,7 +119,6 @@ namespace UserInput{
 
 //User Input Number
 using System;
-
 namespace UserInput{
     public class Program{
         public static void Main(string[] args){
@@ -135,7 +133,6 @@ namespace UserInput{
 
 //Operator
 using System;
-
 namespace Operator{
     public class Program{
         public static void Main(string[] args){
