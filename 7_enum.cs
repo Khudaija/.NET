@@ -5,7 +5,6 @@
 To create an enum, use the enum keyword (instead of class or interface), and separate the enum items with a comma */
 
 using System;
-
 namespace OOP{
     enum Level{
         Low,
@@ -22,12 +21,10 @@ namespace OOP{
     }
 }
 
+
 // Enums inside a class
-
 using System;
-
 namespace OOP{
-    
     class Program{
         
         enum Level{
@@ -44,13 +41,12 @@ namespace OOP{
     }
 }
 
+
 // enume value
-
 using System;
-
 namespace OOP{
     class Program{
-        
+    
         enum Months{
             Jan,
             Feb,
@@ -69,10 +65,9 @@ namespace OOP{
     }
 }
 
+
 // enume value
-
 using System;
-
 namespace OOP{
     class Program{
         
