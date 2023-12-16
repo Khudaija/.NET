@@ -14,6 +14,7 @@ namespace pattern{
     }
 }
 
+
 // Pattern
 using System;
 namespace Pattern{
