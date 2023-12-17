@@ -1,7 +1,5 @@
 // Array
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -20,10 +18,9 @@ namespace myApp{
     }
 }
 
+
 // other way to create array
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -40,10 +37,9 @@ namespace myApp{
     }
 }
 
+
 //loop through an array
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -57,10 +53,9 @@ namespace myApp{
     }
 }
 
+
 // Sort Arrays
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -83,11 +78,10 @@ namespace myApp{
     }
 }
 
-// using linq
 
+// using linq
 using System;
 using System.Linq;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -102,10 +96,9 @@ namespace myApp{
     }
 }
 
+
 //Multidimension Array
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main(string[] args){
@@ -124,10 +117,9 @@ namespace myApp{
     }
 }
 
+
 // loop through 2d array
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main (string[] args){
@@ -141,10 +133,9 @@ namespace myApp{
     }
 }
 
+
 // loop through 2d array get length
-
 using System;
-
 namespace myApp{
     public class Program{
         public static void Main (string[] args){
