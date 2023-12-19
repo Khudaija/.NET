@@ -1,5 +1,4 @@
 // Exception 
-
 /* 
 different errors can occur: coding errors made by the programmer, errors due to wrong input, or other unforeseeable things.
 
