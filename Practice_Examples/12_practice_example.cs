@@ -12,6 +12,7 @@ namespace Practices{
 }
 
 
+
 // print the sum of two numbers  
 using System;
 namespace Practices{
@@ -26,6 +27,7 @@ namespace Practices{
         }
     }
 }
+
 
 
 // print the result of dividing two numbers
