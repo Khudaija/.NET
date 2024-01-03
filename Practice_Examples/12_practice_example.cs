@@ -12,7 +12,6 @@ namespace Practices{
 }
 
 
-
 // print the sum of two numbers  
 using System;
 namespace Practices{
