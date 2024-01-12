@@ -28,7 +28,6 @@ namespace Practices{
 }
 
 
-
 // print the result of dividing two numbers
 using System;
 namespace Practices{
